@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://kit.fontawesome.com/1a2e040597.js" crossorigin="anonymous"></script>
+  <title>Currency Converter</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Currency Converter</h1>
+    <div class="wrapper">
+      <div class="amount">
+        <input type="number" id="moneyAmount" placeholder="">
+        <label>Amount</label>
+        <button id="resetBtn">Reset</button>
+      </div>
+      <div class="currency">
+        <div class="country">
+          <div class="country-btn" id="from">
+            <img src="" width="48" id="fromCountryFlag">
+            <span id="fromCountryName"></span>
+            <span class="selectCurrency" id="fromSelectCurrency">Select Currency</span>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="country-list">
+            <div class="options">
+              <img src="https://flagcdn.com/us.svg" width="48">
+              USD
+            </div>
+            <div class="options">
+              <img src="https://flagcdn.com/in.svg" width="48">
+              INR
+            </div>
+            <div class="options">
+              <img src="https://flagcdn.com/gb.svg" width="48">
+              GBP
+            </div>
+            <div class="options">
+              <img src="https://flagcdn.com/eu.svg" width="48">
+              EUR
+            </div>
+            <div class="options">
+              <img src="https://flagcdn.com/jp.svg" width="48">
+              JPY
+            </div>
+            <div class="options">
+              <img src="https://flagcdn.com/cn.svg" width="48">
+              CNY
+            </div>
+            <div class="options">
+              <img src="https://flagcdn.com/pk.svg" width="48">
+              PKR
+            </div>
+            <div class="options">
+              <img src="https://flagcdn.com/kw.svg" width="48">
+              KWD
+            </div>
+            <div class="options">
+              <img src="https://flagcdn.com/kr.svg" width="48">
+              KRW
+            </div>
+            <div class="options">
+              <img src="https://flagcdn.com/ir.svg" width="48">
+              IR
+            </div>
+          </div>
+        </div>
+        <div class="convert-logo">
+          <i class="fa-solid fa-arrow-right" style="color: #55CCFF; font-size: 30px"></i>
+        </div>
+        <div class="country">
+          <div class="country-btn" id="to">
+            <img src="" width="48" id="toCountryFlag">
+            <span id="toCountryName"></span>
+            <span class="selectCurrency" id="toSelectCurrency">Select Currency</span>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="country-list">
+            <div class="options">
+              <img src="https://flagcdn.com/us.svg" width="48">
+              USD
+            </div>
+            <div class="options">
+              <img src="https://flagcdn.com/in.svg" width="48">
+              INR
+            </div>
+            <div class="options">
+              <img src="https://flagcdn.com/gb.svg" width="48">
+              GBP
+            </div>
+            <div class="options">
+              <img src="https://flagcdn.com/eu.svg" width="48">
+              EUR
+            </div>
+            <div class="options">
+              <img src="https://flagcdn.com/jp.svg" width="48">
+              JPY
+            </div>
+            <div class="options">
+              <img src="https://flagcdn.com/cn.svg" width="48">
+              CNY
+            </div>
+            <div class="options">
+              <img src="https://flagcdn.com/pk.svg" width="48">
+              PKR
+            </div>
+            <div class="options">
+              <img src="https://flagcdn.com/kw.svg" width="48">
+              KWD
+            </div>
+            <div class="options">
+              <img src="https://flagcdn.com/kr.svg" width="48">
+              KRW
+            </div>
+            <div class="options">
+              <img src="https://flagcdn.com/ir.svg" width="48">
+              IR
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="result">RESULT</button>
+    </div>
+  </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
