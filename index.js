@@ -86,7 +86,7 @@ document.getElementById('result').addEventListener('click', async () => {
     'PKR': 'Pakistani Rupee(s)',
     'KWD': 'Kuwaiti Dinar(s)',
     'CNY': 'Chinese Yuan',
-    'IR': 'Iranian Rial(s)'
+    'IRR': 'Iranian Rial(s)'
   };
 
   const exchangeRate = await getExchangeRate(fromCurrency, toCurrency);
